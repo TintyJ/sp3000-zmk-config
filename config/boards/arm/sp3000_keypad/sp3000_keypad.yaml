@@ -1,13 +1,15 @@
 identifier: sp3000_keypad
 name: SP3000 Keypad
-type: mcu
+type: keyboard
 arch: arm
 toolchain:
   - zephyr
-  - gnuarmemb
+ram: 256
+flash: 1024
 supported:
   - gpio
-  - usb_device
-  - ble
   - i2c
   - spi
+  - usb_device
+  - ble
+soc: nrf52840
