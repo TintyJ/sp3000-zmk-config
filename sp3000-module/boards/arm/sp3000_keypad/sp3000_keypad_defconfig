@@ -1,8 +1,6 @@
 # SPDX-License-Identifier: MIT
 # SP3000 Scanner Keypad - Board Configuration
 
-CONFIG_SOC_SERIES_NRF52X=y
-CONFIG_SOC_NRF52840_QIAA=y
 CONFIG_BOARD_SP3000_KEYPAD=y
 
 # Enable MPU
