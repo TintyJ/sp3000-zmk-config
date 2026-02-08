@@ -1,0 +1,1 @@
+rsource "boards/arm/sp3000_keypad/Kconfig.board"
