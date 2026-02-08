@@ -2,10 +2,16 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: app/west.yml
+      import: app
+
   self:
     path: config
+
+  modules:
+    - name: sp3000_keypad
+      path: ../sp3000-module
