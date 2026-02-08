@@ -1,4 +1,0 @@
-name: sp3000-module
-build:
-  cmake: .
-  kconfig: Kconfig
