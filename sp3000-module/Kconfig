@@ -1,1 +1,5 @@
-rsource "boards/arm/sp3000_keypad/Kconfig.board"
+menu "SP3000 module"
+
+source "boards/arm/sp3000_keypad/Kconfig.board"
+
+endmenu
