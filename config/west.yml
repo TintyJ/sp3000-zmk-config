@@ -11,7 +11,3 @@ manifest:
 
   self:
     path: config
-
-  modules:
-    - name: sp3000_keypad
-      path: ../sp3000-module
